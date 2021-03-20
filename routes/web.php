@@ -28,6 +28,4 @@ Route::resource('employee', '\App\Http\Controllers\EmployeesController');
 
 
 
-Auth::routes();
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
